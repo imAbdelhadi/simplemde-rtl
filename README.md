@@ -2,6 +2,8 @@
 Full RTL version of [**SimpleMDE**](https://github.com/sparksuite/simplemde-markdown-editor/) Markdown Editor for [Arabic](https://en.wikipedia.org/wiki/Arabic_script "Arabic script"), [Persian](https://en.wikipedia.org/wiki/Persian_language "Persian language"), and [Urdu](https://en.wikipedia.org/wiki/Urdu_language "Urdu language") languages.
 
 
+[![Preview](https://imgur.com/QrTHw4C.png)](https://abdelhadi.org)
+
 ## Install
 
 Via [npm](https://www.npmjs.com/package/simplemde-rtl).
