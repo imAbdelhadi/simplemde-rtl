@@ -1,13 +1,8 @@
-
 # SimpleMDE - Markdown Editor (RTL)
-A drop-in JavaScript textarea replacement for writing beautiful and understandable Markdown. The WYSIWYG-esque editor allows users who may be less experienced with Markdown to use familiar toolbar buttons and shortcuts. In addition, the syntax is rendered while editing to clearly show the expected result. Headings are larger, emphasized words are italicized, links are underlined, etc. SimpleMDE is one of the first editors to feature both built-in autosaving and spell checking.
+Full RTL version of [**SimpleMDE**](https://github.com/sparksuite/simplemde-markdown-editor/) Markdown Editor for [Arabic](https://en.wikipedia.org/wiki/Arabic_script "Arabic script"), [Persian](https://en.wikipedia.org/wiki/Persian_language "Persian language"), and [Urdu](https://en.wikipedia.org/wiki/Urdu_language "Urdu language").
 
-[**Demo**](https://simplemde.com)
 
 [![Preview](https://imgur.com/QrTHw4C.png)](https://simplemde.com)
-
-## Why not a WYSIWYG editor or pure Markdown?
-WYSIWYG editors that produce HTML are often complex and buggy. Markdown solves this problem in many ways, plus Markdown can be rendered natively on more platforms than HTML. However, Markdown is not a syntax that an average user will be familiar with, nor is it visually clear while editing. In otherwords, for an unfamiliar user, the syntax they write will make little sense until they click the preview button. SimpleMDE has been designed to bridge this gap for non-technical users who are less familiar with or just learning Markdown syntax.
 
 ## Install
 
@@ -16,12 +11,7 @@ Via [npm](https://www.npmjs.com/package/simplemde-rtl).
 npm install simplemde-rtl --save
 ```
 
-Via [bower](https://www.bower.io).
-```
-bower install simplemde --save
-```
-
-Via [jsDelivr](https://www.jsdelivr.com/#!simplemde). *Please note, jsDelivr may take a few days to update to the latest release.*
+Via [jsDelivr](https://www.jsdelivr.com/). *Please note, jsDelivr may take a few days to update to the latest release.*
 
 ```HTML
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplemde-rtl@2.0.0/dist/simplemde-rtl.min.css">
@@ -63,7 +53,7 @@ simplemde.value();
 ```
 
 ```JavaScript
-simplemde.value("This text will appear in the editor");
+simplemde.value("سيظهر هذا النص في المحرر");
 ```
 
 ## Customize  Status bar Language
