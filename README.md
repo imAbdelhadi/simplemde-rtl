@@ -20,7 +20,7 @@ Via [jsDelivr](https://www.jsdelivr.com/). *Please note, jsDelivr may take a few
 
 ## Quick start
 
-After installing, load SimpleMDE on the first textarea on a page
+After installing, load SimpleMDE on the first textarea on a page 
 
 ```HTML
 <script>
