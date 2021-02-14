@@ -1,0 +1,49 @@
+{
+  "name": "simplemde-rtl",
+  "version": "2.0.0",
+  "description": "A simple, beautiful, and embeddable JavaScript Markdown editor. Features autosaving and spell checking.",
+  "keywords": [
+    "embeddable",
+    "markdown",
+    "editor",
+    "javascript",
+    "wysiwyg",
+    "rtl"
+  ],
+  "homepage": "https://github.com/imAbdelhadi/simplemde-rtl",
+  "main": "./src/js/simplemde.js",
+  "license": "MIT",
+  "company": "Next Step Webs, Inc.",
+  "author": {
+    "name": "Wes Cossick",
+    "url": "http://www.WesCossick.com"
+  },
+  "bugs": {
+    "url": "https://github.com/imAbdelhadi/simplemde-rtl/issues"
+  },
+  "dependencies": {
+    "codemirror": "*",
+    "codemirror-spell-checker": "*",
+    "marked": "*"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "debug": "*",
+    "eslint": "*",
+    "gulp": "*",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-debug": "*",
+    "gulp-eslint": "*",
+    "gulp-header": "*",
+    "gulp-jsbeautifier": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "vinyl-buffer": "*",
+    "vinyl-source-stream": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imAbdelhadi/simplemde-rtl"
+  }
+}
