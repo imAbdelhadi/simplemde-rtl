@@ -10,6 +10,9 @@
     "wysiwyg",
     "rtl"
   ],
+  "scripts": {
+    "watch": "gulp watch default "
+  },
   "homepage": "https://github.com/imAbdelhadi/simplemde-rtl",
   "main": "./src/js/simplemde.js",
   "license": "MIT",
@@ -22,25 +25,25 @@
     "url": "https://github.com/imAbdelhadi/simplemde-rtl/issues"
   },
   "dependencies": {
-    "codemirror": "*",
-    "codemirror-spell-checker": "*",
-    "marked": "*"
+    "codemirror": "^5.59.2",
+    "codemirror-spell-checker": "1.1.2",
+    "marked": "^2.0.0"
   },
   "devDependencies": {
-    "browserify": "*",
-    "debug": "*",
-    "eslint": "*",
-    "gulp": "*",
-    "gulp-clean-css": "*",
-    "gulp-concat": "*",
-    "gulp-debug": "*",
-    "gulp-eslint": "*",
-    "gulp-header": "*",
-    "gulp-jsbeautifier": "*",
-    "gulp-rename": "*",
-    "gulp-uglify": "*",
-    "vinyl-buffer": "*",
-    "vinyl-source-stream": "*"
+    "@types/codemirror": "0.0.108",
+    "@types/marked": "^1.2.2",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^6.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-rename": "^2.0.0",
+    "gulp-terser": "^2.0.1",
+    "gulp-uglify": "^3.0.2",
+    "typescript": "^4.1.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^2.0.0"
   },
   "repository": {
     "type": "git",

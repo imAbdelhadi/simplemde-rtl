@@ -332,3 +332,11 @@
 .CodeMirror .CodeMirror-placeholder {
     opacity: .5;
 }
+
+pre code {
+    text-align: left !important;
+    float: left;
+    direction: ltr !important;
+    background: #eee;
+    width: 100%;
+}

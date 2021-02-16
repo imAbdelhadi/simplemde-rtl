@@ -14,8 +14,8 @@ npm install simplemde-rtl --save
 Via [jsDelivr](https://www.jsdelivr.com/). *Please note, jsDelivr may take a few days to update to the latest release.*
 
 ```HTML
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplemde-rtl@2.0.0/dist/simplemde-rtl.min.css">
-<script src="https://cdn.jsdelivr.net/npm/simplemde-rtl@2.0.0/dist/simplemde-rtl.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplemde-rtl@letest/dist/simplemde-rtl.min.css">
+<script src="https://cdn.jsdelivr.net/npm/simplemde-rtl@letest/dist/simplemde-rtl.min.js"></script>
 ```
 
 ## Quick start
